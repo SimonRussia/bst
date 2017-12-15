@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 option(BUILD_EXAMPLES "Build examples" OFF)
 option(BUILD_TESTS "Build tests" OFF)
 
-project(bubble-sort)
+project(sort)
 
 add_library(sort STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
 
