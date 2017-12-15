@@ -1,0 +1,12 @@
+language: cpp
+
+script:
+# tests
+- cmake -H. -B_build -DBUILD_TESTS=ON
+- cmake --build _build
+- cmake --build _build --target test
+- cmake --build _build --target test -- ARGS=--verbose
+
+# examples
+- cmake -H. -B_build -DBUILD_EXAMPLES=ON
+- cmake --build _build
