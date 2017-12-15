@@ -18,7 +18,7 @@ void bubble_sort(int arr[], int arr_size){
     }
 }
 
-void message(int arr[], int size) {
+void messageBubble(int arr[], int size) {
     for (int i = 0; i < size; i++) {
         std::cout << arr[i] << ' ';
     }

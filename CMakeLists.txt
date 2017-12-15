@@ -6,11 +6,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 option(BUILD_EXAMPLES "Build examples" OFF)
 option(BUILD_TESTS "Build tests" OFF)
 
-project(bubble)
+project(bubble-sort)
 
-add_library(bubble STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/bubble.cpp)
+add_library(sort STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
 
-target_include_directories(bubble PUBLIC
+target_include_directories(sort PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
 )
@@ -20,21 +20,21 @@ if(BUILD_EXAMPLES)
   foreach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
     get_filename_component(EXAMPLE_NAME ${EXAMPLE_SOURCE} NAME_WE)
     add_executable(${EXAMPLE_NAME} ${EXAMPLE_SOURCE})
-    target_link_libraries(${EXAMPLE_NAME} bubble)
+    target_link_libraries(${EXAMPLE_NAME} sort)
     install(TARGETS ${EXAMPLE_NAME}
       RUNTIME DESTINATION bin
     )
   endforeach(EXAMPLE_SOURCE ${EXAMPLE_SOURCES})
 endif()
 
-install(TARGETS bubble
-    EXPORT bubble-config
+install(TARGETS sort
+    EXPORT sort-config
     ARCHIVE DESTINATION lib
     LIBRARY DESTINATION lib
 )
 
 install(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/include/ DESTINATION include)
-install(EXPORT bubble-config DESTINATION cmake)
+install(EXPORT sort-config DESTINATION cmake)
 
 if(BUILD_TESTS)
   enable_testing()
