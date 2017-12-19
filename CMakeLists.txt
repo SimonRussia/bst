@@ -8,16 +8,6 @@ option(BUILD_TESTS "Build tests" OFF)
 
 project(sort)
 
-#
-# cmake configuration
-#
-set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
-enable_testing()
-
-# enable code coverage
-find_package(codecov)
-
-
 add_library(sort STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
 
 target_include_directories(sort PUBLIC
