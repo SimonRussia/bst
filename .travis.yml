@@ -1,5 +1,14 @@
 language: cpp
 
+addons:
+  apt:
+    sources:
+      - kalakris-cmake
+    packages:
+      - cmake
+      - lcov
+      - gfortran
+      
 script:
 # tests
 - cmake -H. -B_build -DBUILD_TESTS=ON
