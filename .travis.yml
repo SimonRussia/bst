@@ -22,3 +22,6 @@ script:
 - cd _build
 - make gcov
 - make lcov
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash) -X gcov
