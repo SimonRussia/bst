@@ -8,12 +8,23 @@ option(BUILD_TESTS "Build tests" OFF)
 
 project(sort)
 
+#
+# cmake configuration
+#
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+enable_testing()
+
+# enable code coverage
+find_package(codecov)
+
+
 add_library(sort STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
 
 target_include_directories(sort PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>
 )
+
 
 if(BUILD_EXAMPLES)
   file(GLOB EXAMPLE_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/examples/*.cpp")
@@ -43,3 +54,18 @@ if(BUILD_TESTS)
   target_link_libraries(check ${PROJECT_NAME} ${DEPENDS_LIBRARIES})
   add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes") 
 endif()
+
+
+
+
+
+
+
+#
+# recurse into subdirectories
+#
+add_subdirectory(src)
+
+
+# evaluate coverage
+coverage_evaluate()
