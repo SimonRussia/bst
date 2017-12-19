@@ -15,6 +15,15 @@ target_include_directories(sort PUBLIC
   $<INSTALL_INTERFACE:include>
 )
 
+#
+# cmake configuration
+#
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+# enable_testing()
+
+
+# enable code coverage
+find_package(codecov)
 
 if(BUILD_EXAMPLES)
   file(GLOB EXAMPLE_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/examples/*.cpp")
@@ -42,5 +51,15 @@ if(BUILD_TESTS)
   file(GLOB ${PROJECT_NAME}_TEST_SOURCES tests/*.cpp)
   add_executable(check ${${PROJECT_NAME}_TEST_SOURCES})
   target_link_libraries(check ${PROJECT_NAME} ${DEPENDS_LIBRARIES})
-  add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes") 
+  add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
+  add_coverage(check)
 endif()
+
+
+# recurse into subdirectories
+#
+# add_subdirectory(tests)
+
+
+# evaluate coverage
+# coverage_evaluate()
