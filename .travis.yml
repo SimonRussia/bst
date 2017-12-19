@@ -8,5 +8,8 @@ script:
 - cmake --build _build --target test -- ARGS=--verbose
 
 # examples
-- cmake -H. -B_build -DBUILD_EXAMPLES=ON
+- cmake -H. -B_build -DBUILD_EXAMPLES=ON -DENABLE_COVERAGE=ON
 - cmake --build _build
+- cd _build
+- make gcov
+- make lcov
