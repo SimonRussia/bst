@@ -9,10 +9,10 @@
 ### cpplint
 | check | algorithm | result |
 | --- | --- | --- |
-| [X] | BUCKET | Done processing bucket.hpp |
-| [X] | MERGE | Done processing merge.hpp |
-| [X] | RADIX | Done processing radix.hpp |
-| [X] | SELECTION | Done processing selection.hpp |
+| ☑️ | **BUCKET** | Done processing bucket.hpp |
+| ☑️ | **MERGE** | Done processing merge.hpp |
+| ☑️ | **RADIX** | Done processing radix.hpp |
+| ☑️ | **SELECTION** | Done processing selection.hpp |
 
 ## Визуализация алгоритмов
 
