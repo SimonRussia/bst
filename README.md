@@ -10,17 +10,18 @@
 
 ## Техническое задание
 - [X] Реализовать основные алгоритмы сортировок с использование шаблонных функций языка C++
-- [X] Тестирование разработанных алгоритмов с использованием  фреймворка для модульного тестирования Catch и обеспечение 100% покрытия кода
+- [X] Тестирование разработанных алгоритмов с использованием  фреймворка для модульного тестирования Catch
+- [X] Обеспечение 100% покрытия кода
 - [X] Рассмотреть возможность оптимизации при реализации алгоритмов направленных на работу в мультизадачных системах
 
 ## Результат статичсекого анализа кода
 ### cpplint
-| check | algorithm | report |
-| --- | --- | --- |
-| ☑️ | **BUCKET** | Done processing bucket.hpp |
-| ☑️ | **MERGE** | Done processing merge.hpp |
-| ☑️ | **RADIX** | Done processing radix.hpp |
-| ☑️ | **SELECTION** | Done processing selection.hpp |
+| check | algorithm | cpplint report | cppcheck report |
+| --- | --- | --- | --- |
+| ☑️ | **BUCKET** | Done processing bucket.hpp | Checking bucket.hpp ... |
+| ☑️ | **MERGE** | Done processing merge.hpp | Checking merge.hpp ... |
+| ☑️ | **RADIX** | Done processing radix.hpp | Checking radix.hpp ... |
+| ☑️ | **SELECTION** | Done processing selection.hpp | Checking selection.hpp ... |
 
 ### cppcheck
 | check | algorithm | report |
