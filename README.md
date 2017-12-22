@@ -4,3 +4,13 @@
 [![Build Status](https://travis-ci.org/SimonRussia/bst.svg?branch=master)](https://travis-ci.org/SimonRussia/bst) [![codecov](https://codecov.io/gh/SimonRussia/bst/branch/master/graph/badge.svg)](https://codecov.io/gh/SimonRussia/bst) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](/LICENSE) [![docs: doxygen](https://img.shields.io/badge/doxygen-github.io-orange.svg)](https://simonrussia.github.io/bst/files.html)
 
 🚀 SORTING [ **Bucket** | Merge | **Radix** | Selection ]
+
+
+Bucket
+<img src="http://sorting.valemak.com/wp-content/uploads/2013/12/sort_bucket.gif" width="300" height="whatever>
+Merge
+<img src="http://sorting.valemak.com/wp-content/uploads/2013/11/sort_merge.gif" width="300" height="whatever>
+Radix
+<img src="http://sorting.valemak.com/wp-content/uploads/2013/12/sort_radix_lsd.gif" width="300" height="whatever>
+Selection
+<img src="http://sorting.valemak.com/wp-content/uploads/2013/11/sort_selection.gif" width="300" height="whatever>
