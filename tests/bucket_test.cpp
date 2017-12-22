@@ -1,6 +1,6 @@
 //  TEST_BUCKET.CPP
 
-#include "catch.hpp"
+#include <catch.hpp>
 #include "bucket.hpp"
 
 TEST_CASE("Testing BUCKET sort") {

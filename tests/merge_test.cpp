@@ -1,6 +1,6 @@
 //  TEST_MERGE.CPP
 
-#include "catch.hpp"
+#include <catch.hpp>
 #include "merge.hpp"
 
 TEST_CASE("Testing MERGE sort") {

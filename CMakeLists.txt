@@ -6,7 +6,21 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 option(BUILD_EXAMPLES "Build examples" OFF)
 option(BUILD_TESTS "Build tests" OFF)
 
+include(cmake/HunterGate.cmake)
+
+HunterGate(
+    URL "https://github.com/SimonRussia/hunter/archive/v0.19.137.1.tar.gz"
+    SHA1 "ef53eaa092c18d1ae26299daa4ea84d0f1d979ef"
+)
+
 project(sort)
+
+
+set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
+find_package(codecov)
+
+hunter_add_package(Catch)
+find_package(Catch CONFIG REQUIRED)
 
 add_library(sort STATIC ${CMAKE_CURRENT_SOURCE_DIR}/src/main.cpp)
 
@@ -15,15 +29,6 @@ target_include_directories(sort PUBLIC
   $<INSTALL_INTERFACE:include>
 )
 
-#
-# cmake configuration
-#
-set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake" ${CMAKE_MODULE_PATH})
-# enable_testing()
-
-
-# enable code coverage
-find_package(codecov)
 
 if(BUILD_EXAMPLES)
   file(GLOB EXAMPLE_SOURCES "${CMAKE_CURRENT_SOURCE_DIR}/examples/*.cpp")
@@ -50,16 +55,7 @@ if(BUILD_TESTS)
   enable_testing()
   file(GLOB ${PROJECT_NAME}_TEST_SOURCES tests/*.cpp)
   add_executable(check ${${PROJECT_NAME}_TEST_SOURCES})
-  target_link_libraries(check ${PROJECT_NAME} ${DEPENDS_LIBRARIES})
+  target_link_libraries(check ${PROJECT_NAME} ${DEPENDS_LIBRARIES} Catch::Catch)
   add_test(NAME check COMMAND check "-s" "-r" "compact" "--use-colour" "yes")
   add_coverage(check)
 endif()
-
-
-# recurse into subdirectories
-#
-# add_subdirectory(tests)
-
-
-# evaluate coverage
-# coverage_evaluate()

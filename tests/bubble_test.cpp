@@ -1,6 +1,6 @@
 //  TEST_BUBBLE.CPP
 
-#include "catch.hpp"
+#include <catch.hpp>
 #include "bubble.hpp"
 
 TEST_CASE("Testing BUBBLE sort") {

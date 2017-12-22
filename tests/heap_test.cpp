@@ -1,6 +1,6 @@
 //  TEST_HEAP.CPP
 
-#include "catch.hpp"
+#include <catch.hpp>
 #include "heap.hpp"
 
 TEST_CASE("Testing HEAP sort") {

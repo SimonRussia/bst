@@ -1,6 +1,6 @@
 //  TEST_SELECTION.CPP
 
-#include "catch.hpp"
+#include <catch.hpp>
 #include "selection.hpp"
 
 TEST_CASE("Testing SELECTION sort") {

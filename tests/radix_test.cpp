@@ -1,6 +1,6 @@
 //  TEST_RADIX.CPP
 
-#include "catch.hpp"
+#include <catch.hpp>
 #include "radix.hpp"
 
 TEST_CASE("Testing RADIX sort") {

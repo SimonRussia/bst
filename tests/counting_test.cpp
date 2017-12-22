@@ -1,6 +1,6 @@
 //  TEST_COUNTING.CPP
 
-#include "catch.hpp"
+#include <catch.hpp>
 #include "counting.hpp"
 
 TEST_CASE("Testing COUNTING sort") {
