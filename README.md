@@ -14,6 +14,14 @@
 | ☑️ | **RADIX** | Done processing radix.hpp |
 | ☑️ | **SELECTION** | Done processing selection.hpp |
 
+### cppcheck
+| check | algorithm | result |
+| --- | --- | --- |
+| ☑️ | **BUCKET** | Checking bucket.hpp ... |
+| ☑️ | **MERGE** | Checking merge.hpp ... |
+| ☑️ | **RADIX** | Checking radix.hpp ... |
+| ☑️ | **SELECTION** | Checking selection.hpp ... |
+
 ## Визуализация алгоритмов
 
 #### Bucket
