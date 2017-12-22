@@ -1,28 +1,27 @@
-//  BUBBLE_SORT.HPP
+//  "Copyright [2017] <MGTU IU8-33>"
+//  BUBBLE.HPP
+
 #ifndef _BUBBLE_HPP_
 #define _BUBBLE_HPP_
 
 #include <iostream>
-#include <cstdlib> //  rand, srand
-#include <ctime> //  time
-#include <fstream>
+#include <chrono>
+#include <cmath>
+#include "message.hpp"
 
-void bubble_sort(int arr[], int arr_size){
-    if(arr_size > 1){
-        int size = arr_size;
-        for(bool sorted = 0; sorted != size; --size)
-            for(int i = 1; i < size; ++i)
-                if(arr[i-1] > arr[i]){
-                    std::swap(arr[i-1], arr[i]);
-                }
-    }
-}
-
-void messageBubble(int arr[], int size) {
-    for (int i = 0; i < size; i++) {
-        std::cout << arr[i] << ' ';
-    }
-    std::cout << std::endl;
+template <typename T>
+void bubble_sort(T arr[], int size) {
+    int i;
+    bool flag;
+    do {
+        flag = false;
+        for (i = 0; i < (size - 1); i++) {
+            if (arr[i] > arr[i+1]) {
+                std::swap(arr[i], arr[i+1]);
+                flag = true;
+            }
+        }
+    } while (flag);
 }
 
 #endif  // _BUBBLE_HPP_

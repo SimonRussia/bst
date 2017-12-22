@@ -1,12 +1,28 @@
-//  BUBBLE_SORT.CPP
+//  GENERAL_MAIN.CPP
+
 #include "bubble.hpp"
-#include "insertion.hpp"
+#include "bucket.hpp"
+#include "counting.hpp"
+#include "heap.hpp"
+#include "merge.hpp"
+#include "radix.hpp"
+#include "selection.hpp"
 
 void sortBubble();
-void sortInsertion();
+void sortBucket();
+void sortCounting();
+void sortHeap();
+void sortMerge();
+void sortRadix();
+void sortSelection();
 
 int main(int argc, char const *argv[]) {
 	sortBubble();
-	sortInsertion();
+	sortBucket();
+	sortCounting();
+	sortHeap();
+	sortMerge();
+	sortRadix();
+	sortSelection();
 	return 0;
 }

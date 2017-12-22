@@ -1,11 +1,10 @@
-//  EXAMPLE_BUBBLE.CPP
+//  EXAMPLE_HEAP.CPP
 
-#include "bubble.hpp"
+#include "heap.hpp"
 
-void sortBubble() {
+void sortHeap() {
     srand(time(NULL));
-
-    const int ARRAY_LEN = 20;
+    const long int ARRAY_LEN = 100000;
     const int INT_RANGE = 100;
     int *array = new int[ARRAY_LEN];
 
@@ -14,11 +13,11 @@ void sortBubble() {
     }
 
     message(array, ARRAY_LEN);
-    bubble_sort(array, ARRAY_LEN);
+    heap_sort(array, ARRAY_LEN);
     message(array, ARRAY_LEN);
 }
 
 int main(int argc, char const *argv[]) {
-    sortBubble();
+    sortHeap();
     return 0;
 }

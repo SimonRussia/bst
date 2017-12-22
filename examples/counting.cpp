@@ -1,11 +1,10 @@
-//  EXAMPLE_BUBBLE.CPP
+//  EXAMPLE_COUNTING.CPP
 
-#include "bubble.hpp"
+#include "counting.hpp"
 
-void sortBubble() {
+void sortCounting() {
     srand(time(NULL));
-
-    const int ARRAY_LEN = 20;
+    const int ARRAY_LEN = 10;
     const int INT_RANGE = 100;
     int *array = new int[ARRAY_LEN];
 
@@ -14,11 +13,11 @@ void sortBubble() {
     }
 
     message(array, ARRAY_LEN);
-    bubble_sort(array, ARRAY_LEN);
+    counting_sort(array, ARRAY_LEN, INT_RANGE);
     message(array, ARRAY_LEN);
 }
 
 int main(int argc, char const *argv[]) {
-    sortBubble();
+    sortCounting();
     return 0;
 }
