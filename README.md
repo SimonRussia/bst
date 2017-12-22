@@ -2,4 +2,4 @@
 
 ## TESTING SORT
 
-[![Everything Is AWESOME](https://img.youtube.com/vi/7zuGmKfUt7s/5.jpg)](https://www.youtube.com/watch?v=7zuGmKfUt7s "Counting Sort")
+[![Counting Sort](https://img.youtube.com/vi/7zuGmKfUt7s/0.jpg)](https://www.youtube.com/watch?v=7zuGmKfUt7s "Counting Sort")
