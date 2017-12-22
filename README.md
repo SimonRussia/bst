@@ -15,29 +15,13 @@
 - [X] Рассмотреть возможность оптимизации при реализации алгоритмов направленных на работу в мультизадачных системах
 
 ## Результат статичсекого анализа кода
-### cpplint
+
 | check | algorithm | cpplint report | cppcheck report | OCLint Report |
 | --- | --- | --- | --- | --- |
 | ☑️ | **BUCKET** | Done processing bucket.hpp | Checking bucket.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 | ☑️ | **MERGE** | Done processing merge.hpp | Checking merge.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 | ☑️ | **RADIX** | Done processing radix.hpp | Checking radix.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 | ☑️ | **SELECTION** | Done processing selection.hpp | Checking selection.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
-
-### cppcheck
-| check | algorithm | report |
-| --- | --- | --- |
-| ☑️ | **BUCKET** | Checking bucket.hpp ... |
-| ☑️ | **MERGE** | Checking merge.hpp ... |
-| ☑️ | **RADIX** | Checking radix.hpp ... |
-| ☑️ | **SELECTION** | Checking selection.hpp ... |
-
-### OClint
-| check | algorithm | OCLint Report |
-| --- | --- | --- |
-| ☑️ | **BUCKET** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
-| ☑️ | **MERGE** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
-| ☑️ | **RADIX** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
-| ☑️ | **SELECTION** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 
 
 ## Визуализация алгоритмов
