@@ -5,6 +5,7 @@
 
 🚀 SORTING [ **Bucket** | Merge | **Radix** | Selection ]
 
+
 ## Результат статичсекого анализа кода
 ### cpplint
 | check | algorithm | report |
@@ -29,6 +30,7 @@
 | ☑️ | **MERGE** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 | ☑️ | **RADIX** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 | ☑️ | **SELECTION** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
+
 
 ## Визуализация алгоритмов
 
