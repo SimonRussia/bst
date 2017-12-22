@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <chrono>
+#include <cstring>
 #include "message.hpp"
 
 template <typename T>
