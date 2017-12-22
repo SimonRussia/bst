@@ -7,7 +7,7 @@
 
 ## Результат статичсекого анализа кода
 | cpplint |
-| --- |
+| --- | --- | --- |
 | [X] | BUCKET | Done processing bucket.hpp |
 | [X] | MERGE | Done processing merge.hpp |
 | [X] | RADIX | Done processing radix.hpp |
