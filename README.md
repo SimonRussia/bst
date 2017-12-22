@@ -15,7 +15,7 @@
 - [X] Обеспечение 100% покрытия кода
 - [X] Рассмотреть возможность оптимизации при реализации алгоритмов направленных на работу в мультизадачных системах
 
-## Результат статичсекого анализа кода
+## РЕЗУЛЬТАТЫ СТАТИЧЕСКОГО АНАЛИЗА КОДА
 
 | check | algorithm | cpplint report | cppcheck report | OCLint Report |
 | --- | --- | --- | --- | --- |
@@ -25,7 +25,7 @@
 | ☑️ | **SELECTION** | Done processing selection.hpp | Checking selection.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 
 
-## Визуализация алгоритмов
+## ВИЗУАЛИЗАЦИЯ АЛГОРИТМОВ СОРТИРОВОК
 
 | Bucket | Merge | Radix | Selection |
 | --- | --- | --- | --- |
