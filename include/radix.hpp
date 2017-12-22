@@ -6,6 +6,7 @@
 
 #include <iostream>
 #include <chrono>
+#include <cstring>
 #include "message.hpp"
 
 // Функция для поиска максимального значения
