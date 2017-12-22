@@ -16,12 +16,12 @@
 
 ## Результат статичсекого анализа кода
 ### cpplint
-| check | algorithm | cpplint report | cppcheck report |
-| --- | --- | --- | --- |
-| ☑️ | **BUCKET** | Done processing bucket.hpp | Checking bucket.hpp ... |
-| ☑️ | **MERGE** | Done processing merge.hpp | Checking merge.hpp ... |
-| ☑️ | **RADIX** | Done processing radix.hpp | Checking radix.hpp ... |
-| ☑️ | **SELECTION** | Done processing selection.hpp | Checking selection.hpp ... |
+| check | algorithm | cpplint report | cppcheck report | OCLint Report |
+| --- | --- | --- | --- | --- |
+| ☑️ | **BUCKET** | Done processing bucket.hpp | Checking bucket.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
+| ☑️ | **MERGE** | Done processing merge.hpp | Checking merge.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
+| ☑️ | **RADIX** | Done processing radix.hpp | Checking radix.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
+| ☑️ | **SELECTION** | Done processing selection.hpp | Checking selection.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 
 ### cppcheck
 | check | algorithm | report |
