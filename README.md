@@ -3,3 +3,7 @@
 ## TESTING SORT
 
 [![Counting Sort](https://img.youtube.com/vi/7zuGmKfUt7s/0.jpg)](https://www.youtube.com/watch?v=7zuGmKfUt7s "Counting Sort")
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE"><img src="https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg" alt="IMAGE ALT TEXT"></a>
+</div>
