@@ -17,7 +17,7 @@
 
 ## РЕЗУЛЬТАТЫ СТАТИЧЕСКОГО АНАЛИЗА КОДА
 
-| check | algorithm | cpplint report | cppcheck report | OCLint Report |
+| check | algorithm | cpplint report | cppcheck report | OCLint report |
 | :---: | --- | --- | --- | --- |
 | ☑️ | **BUCKET** | Done processing bucket.hpp | Checking bucket.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
 | ☑️ | **MERGE** | Done processing merge.hpp | Checking merge.hpp ... | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
