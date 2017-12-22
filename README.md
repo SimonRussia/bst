@@ -5,19 +5,27 @@
 
 🚀 SORTING [ **Bucket** | Merge | **Radix** | Selection ]
 
+## Результат статичсекого анализа кода
+| cpplint |
+| --- |
+| [X] | BUCKET | Done processing bucket.hpp |
+| [X] | MERGE | Done processing merge.hpp |
+| [X] | RADIX | Done processing radix.hpp |
+| [X] | SELECTION | Done processing selection.hpp |
 
-Bucket
+## Визуализация алгоритмов
+####Bucket
 
 <img src="http://sorting.valemak.com/wp-content/uploads/2013/12/sort_bucket.gif" width="300" height="whatever">
 
-Merge
+####Merge
 
 <img src="http://sorting.valemak.com/wp-content/uploads/2013/11/sort_merge.gif" width="300" height="whatever">
 
-Radix
+####Radix
 
 <img src="http://sorting.valemak.com/wp-content/uploads/2013/12/sort_radix_lsd.gif" width="300" height="whatever">
 
-Selection
+####Selection
 
 <img src="http://sorting.valemak.com/wp-content/uploads/2013/11/sort_selection.gif" width="300" height="whatever">
