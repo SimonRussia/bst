@@ -22,6 +22,14 @@
 | ☑️ | **RADIX** | Checking radix.hpp ... |
 | ☑️ | **SELECTION** | Checking selection.hpp ... |
 
+### OClint
+| check | algorithm | OCLint Report |
+| --- | --- | --- |
+| ☑️ | **BUCKET** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
+| ☑️ | **MERGE** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
+| ☑️ | **RADIX** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
+| ☑️ | **SELECTION** | Summary: TotalFiles=1 FilesWithViolations=0 P1=0 P2=0 P3=0 |
+
 ## Визуализация алгоритмов
 
 #### Bucket
