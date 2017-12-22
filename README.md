@@ -6,7 +6,7 @@
 🚀 SORTING [ **Bucket** | Merge | **Radix** | Selection ]
 
 ## Результат статичсекого анализа кода
-| cpplint |
+| cpplint | | |
 | --- | --- | --- |
 | [X] | BUCKET | Done processing bucket.hpp |
 | [X] | MERGE | Done processing merge.hpp |
