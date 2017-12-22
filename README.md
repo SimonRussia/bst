@@ -3,10 +3,3 @@
 ## TESTING SORT
 
 [![Counting Sort](https://img.youtube.com/vi/7zuGmKfUt7s/0.jpg)](https://www.youtube.com/watch?v=7zuGmKfUt7s "Counting Sort")
-
-
-<div align="center">
-    <iframe width="620" height="315"
-        src="https://www.youtube.com/embed/OhlVBpEnjig">
-    </iframe>
-</div>
