@@ -7,7 +7,7 @@
 
 
 Bucket
-
+![Image of Yaktocat](http://sorting.valemak.com/wp-content/uploads/2013/12/sort_bucket.gif)
 <img src="http://sorting.valemak.com/wp-content/uploads/2013/12/sort_bucket.gif" width="300" height="whatever>
 
 Merge
