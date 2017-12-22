@@ -26,9 +26,9 @@
 
 ## Визуализация алгоритмов
 
-#### Bucket
-
-<img src="http://sorting.valemak.com/wp-content/uploads/2013/12/sort_bucket.gif" width="300" height="whatever">
+| Bucket | Merge |
+| --- | --- |
+| <img src="http://sorting.valemak.com/wp-content/uploads/2013/12/sort_bucket.gif" width="300" height="whatever"> | <img src="http://sorting.valemak.com/wp-content/uploads/2013/11/sort_merge.gif" width="300" height="whatever"> |
 
 #### Merge
 
