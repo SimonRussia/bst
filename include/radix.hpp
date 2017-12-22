@@ -74,10 +74,4 @@ void radix_sort(T arr[], int size) {
         count_sort(arr, size, exp);
 }
 
-void for_double(double arr[], int size, double rad) {
-    for (int i = 0; i < size; i++) {
-        arr[i] *= rad;
-    }
-}
-
 #endif  // _RADIX_HPP_
